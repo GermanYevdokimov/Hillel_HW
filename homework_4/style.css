@@ -1,0 +1,47 @@
+body{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif; 
+    
+}
+.header{
+    background-color: brown;
+    padding: 10px;
+    min-height: 180px;
+}
+
+h2{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.list{
+    background-color: blue;
+}
+
+
+.list a{
+    background-color: black;
+    color: aliceblue;
+}
+.content{
+    min-height: 180px;
+    margin-bottom: 20px;
+    background-color: orange;
+    padding: 25px;
+}
+div{
+    min-height: 20px;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+.title{
+    border: 6px solid rgb(5, 77, 5);
+}
+.text{
+    background-color: bisque;
+}
+.footer{
+    background-color: red;
+    color: black;
+}
+

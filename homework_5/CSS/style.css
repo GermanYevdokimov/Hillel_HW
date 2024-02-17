@@ -6,15 +6,15 @@
     
 }
 .content{
-    width: 1200px;
-    height: 892px;
+    max-width: 1200px;
+    min-height: 892px;
     border: 1px;
     margin: 0 auto;
     background-color: #B0C6FF;
 }
 .header_title{
-    width: 342px;
-    height: 58px;
+    max-width: 342px;
+    max-height: 58px;
     margin-left: 429px;
     font-weight: 700;
     font-size: 48px;
@@ -23,8 +23,8 @@
     color: #ffffff;  
 }
 .block_card{
-    width: 1076px;
-    height: 742px;  
+    max-width: 1076px;
+    max-height: 742px;  
     margin: 0 auto;
 }
 .card{
@@ -36,16 +36,17 @@
     margin-top: 30px;
     margin-bottom: 65px;     
     margin-left: 11px;
+    padding-bottom: 15px;
 }
 .picture{
-    width: 148.31px;
-    height: 141px;
+    max-width: 148.31px;
+    max-height: 141px;
     margin: 0 auto;
     padding-top: 15px;
 }
 .title{
-    width: 81.09px;
-    height: 15px;
+    max-width: 81.09px;
+    max-height: 15px;
     font-weight: 700;
     font-size: 12px;
     line-height: 14.52px;
@@ -54,8 +55,8 @@
     padding-top: 15px;
 }
 .text{
-    width: 218.72px;
-    height: 45px;
+    max-width: 218.72px;
+    max-height: 45px;
     font-weight: 400;
     font-size: 12px;
     line-height: 14.52px;
@@ -64,8 +65,8 @@
     padding-top: 25px;
 }
 .button{
-    width: 170.71px;
-    height: 40px;
+    min-width: 170.71px;
+    min-height: 40px;
     display: block;
     margin: 0 auto;
     font-weight: 700;

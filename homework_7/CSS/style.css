@@ -1,0 +1,152 @@
+body{
+    font-family: Roboto;
+    font-weight: 400;
+}
+/* header */
+.navigation{
+    background-color: #000000;
+}
+.nav-bar{
+    max-width: 1200px;
+    min-height: 110px;
+    margin: 0 auto;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 43px;
+}
+.nav-item{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF; 
+    margin-right: 53px;
+}
+
+/*section 1*/
+.container{
+    margin-top: 33px;
+}
+.content-section-one{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+.content-block-one{
+    padding: 25px 0 25px 25px;
+}
+.content-title{
+    max-width: 537px;
+    max-height: 263px;
+    font-size: 80px;
+    line-height: 88px;
+}
+.content-text{
+    max-width: 530px;
+    max-height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 47px;
+    margin-bottom: 70px;
+}
+.content-inp{
+    min-width: 281px;
+    min-height: 60px;
+    border: 3px solid #000000;
+    border-radius: 50px 0 0 50px;    
+}
+.content-btn{
+    min-width: 110px;
+    min-height: 60px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 0 50px 50px 0;
+    font-size: 16;
+    text-transform: uppercase; 
+    letter-spacing: 1px;   
+}
+.picture-one{
+    margin-top: 73px;
+    margin-left: 145px;
+}
+
+/*Title one*/
+
+.title{
+    border: 3px solid black;
+    height: 200px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+.title-step{
+    margin-top: 44px;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.title-product{
+    font-size: 55px;
+    line-height: 66px;
+    margin-top: 30px;
+}
+/*section 2*/
+
+
+.cont-second{
+    background-color: #FCD0BA;
+    min-height: 511px;
+    margin-top: 47px;
+}
+
+.container-second{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    border: 3px solid black;
+    padding-top: 71px;
+    padding-left: 5px;
+}
+
+.content-second{
+    margin-left: 54px;
+    
+}
+.picture-two{
+    max-width: 297px;
+    max-height: 440px;
+}
+.Get-started {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+.empower-cash-advance {
+    font-size: 45px;
+    line-height: 48px;
+    max-width: 301px;
+    max-height: 31px;
+    
+}
+.list-second-section{
+    font-size: 20px;
+    line-height: 24px;   
+    padding-top: 150px;
+    position: relative;
+    
+}
+.list-item::before{
+    content: '';
+    background: url('../Images/IMAGE3.png') 0 0 no-repeat;  
+    width: 39px;
+    height: 38px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

@@ -22,7 +22,9 @@ body{
     color: #FFFFFF; 
     margin-right: 53px;
 }
-
+.nav-item:hover{
+    color: red;
+}
 /*section 1*/
 .container{
     margin-top: 33px;
@@ -32,7 +34,6 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 3px solid black;
 }
 .content-block-one{
     padding: 25px 0 25px 25px;
@@ -71,14 +72,11 @@ body{
     margin-top: 73px;
     margin-left: 145px;
 }
-
 /*Title one*/
-
 .title{
-    border: 3px solid black;
-    height: 200px;
-    margin: 0 auto;
     max-width: 1200px;
+    min-height: 200px;
+    margin: 0 auto;
     text-align: center;
 }
 .title-step{
@@ -94,51 +92,48 @@ body{
     margin-top: 30px;
 }
 /*section 2*/
-
-
 .cont-second{
     background-color: #FCD0BA;
     min-height: 511px;
     margin-top: 47px;
 }
-
 .container-second{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    border: 3px solid black;
     padding-top: 71px;
     padding-left: 5px;
 }
 
 .content-second{
-    margin-left: 54px;
-    
+    margin-left: 54px;   
 }
 .picture-two{
     max-width: 297px;
     max-height: 440px;
 }
-.Get-started {
+.Get-started { 
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 1px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 .empower-cash-advance {
     font-size: 45px;
     line-height: 48px;
     max-width: 301px;
     max-height: 31px;
-    
+    padding-top: 21px;  
 }
 .list-second-section{
     font-size: 20px;
     line-height: 24px;   
-    padding-top: 150px;
+    padding-top: 160px;  
+}
+.list-item{
+    padding-bottom: 30px;
+    padding-left: 55px;
     position: relative;
-    
 }
 .list-item::before{
     content: '';
@@ -146,7 +141,126 @@ body{
     width: 39px;
     height: 38px; 
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 0;
 }
-
+/*Title two*/
+.title-step-second{
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.title-product-second{
+    max-width: 708px;
+    max-height: 134px;
+    font-size: 55px;
+    line-height: 66px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*section 3*/
+.sectionnnn{
+    background-color: #CCD3E7;
+    margin-top: 47px;
+    min-height: 651px;    
+}
+.section-three{
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+.container-three{
+    margin-top: 47px;
+    display: flex;   
+}
+.content-three{
+    min-width: 328px;
+    min-height: 498px;
+    padding-left: 24px;
+    padding-top: 71px;
+    padding-bottom: 82px;
+}
+.foto-card{
+    min-width: 328px;
+    min-height: 498px;
+    padding-top: 71px;
+    padding-bottom: 82px;
+}
+.inp {
+    border: 1px solid black;
+    min-width: 144px;
+    min-height: 33px;
+    border-radius: 40px;
+    text-align: center;
+    color: #000000;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.empower-card {
+    max-width: 301px;
+    max-height: 45px;
+    font-size: 45px;
+    line-height: 48px;
+    margin-top: 27px;
+}
+.open-debit {
+    max-width: 383px;
+    max-height: 46px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 34px;
+}
+.list-three-section {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.btn{
+    min-width: 155px;
+    min-height: 51px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+/*section 3*/
+.footer{
+    background-color: rgba(2, 0, 22, 1);   
+}
+.footer-content{
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    max-width: 254px;
+    max-height: 144px;
+    margin-top: 110px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(179, 179, 179, 1);
+}
+.footer-menu{
+    margin-top: 50px;
+    display: flex;
+}
+.footer-list{
+    margin-top: 20px;
+    margin-left: 40px;    
+}
+.footer-item{
+    font-family: Roboto;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-item:hover{
+    color: red;
+}

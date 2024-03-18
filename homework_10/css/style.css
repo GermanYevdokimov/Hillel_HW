@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+.markets{
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+.markets__inner{
+    min-width: 1136px;
+    min-height: 519px;
+}
+.markets__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 14px;
+    margin: 23px 0 26px 0;
+    
+}
+.markets__header__title {
+    min-width: 95px;
+    min-height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.markets__header__title-movers {
+    color:  rgba(113, 113, 122, 1);
+}
+.markets__items__title{
+    min-width: 200px;
+    min-height: 50px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 0 16px 32px ;
+}
+.markets__items{
+    min-width: 1136px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 0 16px 32px ;
+    border-top: 1px solid rgba(244, 244, 245, 1);
+}
+.markets__items-border{
+    border-bottom:1px solid rgba(244, 244, 245, 1); 
+}
+.markets__item{
+    min-width: 200px;
+    min-height: 50px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 15px 0 16px 32px ;
+}
+.markets__logo__name {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+.markets__logo {
+}
+.markets__name {
+}
+.markets__item-green{
+    color: rgba(16, 185, 129, 1);
+}
+.markets__item-red{
+    color: rgba(244, 63, 94, 1);
+}
+.markets__item__link {
+    width: 56px;
+    height: 33px;
+    border-radius: 4px;
+    background-color: rgba(154, 253, 76, 1);
+    padding: 5px 17px;
+    margin: 0 0 0 60px;
+    text-align: center;
+}
+.markets__link {
+    width: 22px;
+    height: 14px;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgba(1, 39, 28, 1);
+}
+.markets__footer{
+    display: flex;
+    justify-content: center;
+}
+.footer__content{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center ;
+    padding: 0 0 0 30px;
+    column-gap: 15px;
+    margin: 22px 0 0 0;
+}
+.footer__img__block{
+}
+.footer__img{
+    margin-left: -9px;
+}
+.footer__text{
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(24, 24, 27, 1);
+}

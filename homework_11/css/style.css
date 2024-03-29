@@ -1,0 +1,323 @@
+.header {
+    background-color: rgba(10, 10, 10, 1);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+}
+@media screen and (max-width:760px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px 5px;
+    }
+}
+.menu__list {
+    display: flex;
+    column-gap: 30px;
+}
+@media screen and (max-width:460px){
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 5px;
+    }
+}
+.menu__link {
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(113, 113, 113, 1);
+}
+.menu__log{
+    padding-right: 120px;
+}
+@media screen and (max-width:760px){
+    .menu__log{
+        margin-left: 150px;
+    }
+}
+.menu__tel {
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(113, 113, 113, 1);
+}
+/*первый блок*/
+.iphone__boxxx {
+    background-color: rgba(203, 203, 203, 1);
+}
+.boxxx_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxxx__title {
+    margin: 71px 0 40px 0;
+    font-size: 64px;
+    line-height: 78px;
+    font-weight: 700;
+    color: rgba(73, 14, 132, 1);
+}
+@media screen and (max-width:980px){
+    .boxxx__title {
+        font-size: 48px;
+        line-height: 44px;
+    }
+}
+@media screen and (max-width:430px){
+    .boxxx__title {
+        font-size: 38px;
+        line-height: 28px;
+    }
+}
+.boxxx__img {
+    margin-bottom: 30px;
+}
+@media screen and (max-width:980px){
+    .boxxx__img {
+        text-align: center;
+    }
+}
+@media screen and (max-width:980px){
+    .iphone__img {
+        width: 90%;
+    }
+}
+@media screen and (max-width:430px){
+    .iphone__img {
+        width: 80%;
+    }
+}
+.boxxx__link {
+    min-width: 350px;
+    min-height: 70px;
+    background-color: rgba(73, 14, 132, 1);
+    border-radius: 30px;
+    margin: 25px 0 40px 0;
+    text-align: center;
+    padding: 22px 0 19px 0;
+}
+@media screen and (max-width:430px){
+    .boxxx__link {
+        min-width: 70%;
+    }
+}
+.link {
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+/*второй блок*/
+.box__title{
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(113, 113, 113, 1);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 70px 0 0 0;
+}
+@media screen and (max-width:435px){
+    .box__title{
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+.iphone__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin: 50px 0 70px 0;
+}
+@media screen and (max-width:1170px){
+    .iphone__items{
+        justify-content: space-between;
+    } 
+}
+@media screen and (max-width:865px){
+    .iphone__items{
+        justify-content: space-around;
+    } 
+}
+.iphone__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.iphone__title-color {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 20px 0;
+}
+.iphone__title-txt {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(10, 10, 10, 1);
+}
+/*третий блок*/
+.content{
+    margin: 130px 0 0 0;
+    display: flex;
+}
+@media  screen and (max-width:1199px) {
+    .content{
+       flex-direction: column;
+    }
+    .content__box_img{
+        order: 1;
+    }
+    .content__pro{
+        order: 2;
+        padding-bottom: 30px;
+    }
+}
+.content__pro {
+    background-color: rgba(87, 75, 99, 1); 
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:515px) {
+    .content__pro {
+    }
+}
+.content__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: rgba(255, 255, 255, 1);
+    margin: 137px 0 0 0;
+    padding-left: 93px;
+    padding-right: 94px;
+}
+@media screen and (max-width:600px) {
+    .content__title{
+        font-size: 25px;
+        line-height: 30px;
+        margin: 37px 0 0 0;
+    }
+}
+@media screen and (max-width:512px) {
+    .content__title{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+}
+.content__box_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp{
+    min-width: 400px;
+    min-height: 28px;
+    background-color: rgba(87, 75, 99, 1); 
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    margin: 72px 0 20px 0;
+}
+@media screen and (max-width:461px){
+    .inp {
+        min-width: 250px;
+    }
+}
+.content__txt{
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    margin: 30px 0;
+}
+@media screen and (max-width:380px) {
+    .content__txt{
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+.btn {
+    line-height: 50px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(73, 14, 132, 1);
+    min-width: 240px;
+    min-height: 50px;
+}
+@media screen and (max-width:416px) {
+    .btn{
+        min-width: 150px;
+        min-height: 35px;
+    }
+}
+.content_img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:550px) {
+    .content__box_img{
+        text-align: center;
+        background-color: black;
+    }
+    .content_img {
+        width: 90%;
+    }
+}
+/*подвал*/
+.footer{
+    background-color: black;
+}
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+}
+@media screen and (max-width:990px) {
+.footer__box {
+    flex-direction: column;
+    gap: 25px;
+}
+}
+.footer__link {
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(113, 113, 113, 1);
+}
+@media screen and (max-width:410px) {
+.footer__link {
+    font-size: 14px;
+    line-height: 20px;
+}
+}
+.footer__log {
+    padding-right: 130px;
+}
+@media screen and (max-width:990px) {
+    .footer__log {
+        margin-left: 120px;
+    }
+    }
+.footer__tel {
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(113, 113, 113, 1);
+}
+@media screen and (max-width:410px) {
+.footer__tel {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    }

@@ -1,0 +1,72 @@
+
+.wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header menu menu menu"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "main main . image"
+    "main main . extra"
+    "banner banner banner banner";
+}
+@media  screen and (max-width:1024px) {
+.wrapper {
+    grid-template-areas: 
+    "header header header header"
+    "hero hero hero hero "
+    "hero hero hero hero"
+    "menu main main main"
+    "menu main main main"
+    "menu banner banner banner"
+    "menu extra extra image";
+    }
+}
+@media screen and (max-width:500px){
+    .wrapper{
+        grid-template-areas: 
+        "header"
+        "menu"
+        "hero"
+        "main"
+        "banner"
+        "extra"
+        "image";
+    }
+}
+.header {
+    grid-area: header;
+    background-color: #000;
+    color: #fff;
+}
+.menu{
+    grid-area: menu;
+    background-color: red;
+}
+.hero{
+grid-area: hero;
+background-color: blue;
+}
+.main {
+    grid-area: main;
+    background-color: cadetblue;
+}
+.image{
+    grid-area: image;
+    background-color: blanchedalmond;
+}
+.extra{
+    grid-area: extra;
+    background-color: limegreen;
+}
+.banner{
+    grid-area: banner;
+    background-color: yellow;
+}
+.element {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 25px;
+}

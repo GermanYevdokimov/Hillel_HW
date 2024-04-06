@@ -65,33 +65,32 @@ body{
     display: none;
 }
 @media screen and (max-width: 810px) {
+  .nav__box {
+    display: none;
+  }
     .burger {
       display: block;
     }
-    .nav__list {
-        display: none;
-      }
-
-    .burger:focus ~ .nav__list {
+    .burger:focus ~ .nav__box {
       display: flex;
       flex-direction: column;
       background-color: aqua;
       padding: 20px;
     }
+    .nav__box {
+      display: flex;
+      gap: 20px;
+    }  
+    .nav__link {
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      padding: 10px;
+    }
+  
+    .nav__link:hover {
+      background-color: #fff;
+      color: #000;
+    }  
   }
 
-  .nav__list {
-    display: flex;
-    gap: 20px;
-  }  
-  .nav__link {
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    padding: 10px;
-  }
-
-  .nav__link:hover {
-    background-color: #fff;
-    color: #000;
-  }

@@ -1,56 +1,62 @@
 body{
+    background-color: rgba(43, 43, 43, 1); 
+
 }
 
+.nav__inner{
+    padding: 40px 50px 20px 50px;
+    background-color: rgba(43, 43, 43, 1); 
+
+}
+.inner{
+    padding: 80px 115px;   
+    background-color: rgba(43, 43, 43, 1); 
+
+}
+section{
+    background-color: rgba(43, 43, 43, 1); 
+
+}
 .container{
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
+    background-color: rgba(43, 43, 43, 1); 
 }
+/*Navigation*/
+.header{
+    background-color: rgba(43, 43, 43, 1); 
 
-/*Навигация - флекс блок*/
-.nav {
+}
+.navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding-top: 40px;   
+
 }
-/*Навигация - левый флекс блок*/
-.nav__logo {
+.nav__logo{
     display: flex;
-    column-gap: 12px;
+    justify-content: space-between;
     align-items: center;
+    column-gap: 12px;
 }
-.logo__box {
-}
-.logo__img {
-}
-.logo__name {
-    color: black;
+.nav__name{
+    color: rgba(255, 255, 255, 1);
     font-size: 20px;
 }
-/*Навигация - правый флекс блок*/
-.nav__box{
-    display: flex;
-    
-}
-.nav__list {
+.menu__list{
     display: flex;
     align-items: center;
-    column-gap: 10px;
-    
+    column-gap: 30px;
 }
-.nav__item {
-    padding: 12px 20px;
-}
-.nav__link {
+.menu__link{
     font-size: 16px;
     line-height: 22px;
-    color: black;
+    color: rgba(255, 255, 255, 1);
 }
-
-/*Навигация - правый флекс блок - кнопка*/
-.nav__btn-box{
-    width: 122px;
-    height: 50px;
+.menu__btn-box{
+    min-width: 122px;
+    min-height: 50px;
     background-color: rgba(162, 89, 255, 1);
     border-radius: 20px;
     text-align: center;
@@ -59,38 +65,517 @@ body{
     justify-content: center;
     column-gap: 7px;
 }
-/*Навигация - правый флекс блок - бургер*/
+/*Section - 2 hero__section*/
+.hero__section-frame{
+    width: 100%;
+    min-height: 544px;
+    display: grid;
+    grid-template-areas: 
+    "title title img_box img_box"
+    "title title img_box img_box"
+    "hero__buttons . img_box img_box" 
+    "info info img_box img_box" ;
+    background-color: rgba(43, 43, 43, 1); 
 
-.burger{
-    display: none;
 }
-@media screen and (max-width: 810px) {
-  .nav__box {
-    display: none;
-  }
-    .burger {
-      display: block;
-    }
-    .burger:focus ~ .nav__box {
-      display: flex;
-      flex-direction: column;
-      background-color: aqua;
-      padding: 20px;
-    }
-    .nav__box {
-      display: flex;
-      gap: 20px;
-    }  
-    .nav__link {
-      font-size: 16px;
-      font-weight: bold;
-      color: #fff;
-      padding: 10px;
-    }
-  
-    .nav__link:hover {
-      background-color: #fff;
-      color: #000;
-    }  
-  }
+.hero__text__buttons{
+    grid-area: title;
+}
+.hero__text__title{
+    font-size: 67px;
+    line-height: 74px;
+    font-weight: 74px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+.hero__text__txt{
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 30px;
 
+}
+.hero__buttons{
+    grid-area: hero__buttons;
+    background-color: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 11px;
+    padding: 19px 50px;
+
+}
+.hero__link{
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(225,225,225,1);
+}
+.aditional__info{
+    grid-area: info;
+    display: flex;
+    column-gap: 30px;
+    margin-top: 30px;
+
+}
+.aditional__item{
+    color: rgba(225,225,225,1);
+    font-size: 24px;
+    line-height: 39px;
+}
+.Highlighted__nft{
+    grid-area: img_box;
+}
+.frame__230{
+    background-color: rgba(59, 59, 59, 1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    max-width: 510px;
+    min-height: 109px;
+}
+.space__walking {
+    padding: 20px 22px 10px 22px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.artist__card {
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    column-gap: 12px;
+}
+.dish {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 23px;
+}
+/*Section 3 trending__collection*/
+.trending__collection{
+}
+.section__headline{
+    margin-bottom: 60px;
+}
+.heading{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 10px;
+    padding-left: 115px;
+}
+.subhead{
+    font-size: 22px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 115px;
+}
+/*collection card row*/
+.collection__card__row{
+    display: flex;
+    column-gap: 30px;
+    padding: 0 115px;
+}
+
+.frame__228{
+    margin-top: 15px;
+    display: flex;
+    column-gap: 15px;
+}
+.number__of__aditional{
+    font-size: 22px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 1);
+    padding: 32px 20px;
+    background-color: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+}
+.collection__info{
+    margin-top: 15px;
+}
+.collection__name{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+.artist__cardd{
+    margin-top: 10px;
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+.ava__name{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/*Section 4 top__rated__artist*/
+.top__rated__artist{
+}
+.section__headline__button{
+    display: flex;
+    justify-content: space-between;
+}
+.section__button{
+    margin-right: 115px;
+    margin-top: 31px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 19px 50px;
+}
+.view__rankings-link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2px;
+    color: rgba(255, 255, 255, 1);
+}   
+
+.artist__cards__grid{
+    margin-top: 60px;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+    "artist__card-one artist__card-second artist__card-third artist__card-fourth";
+    padding: 0 115px;
+}
+.cards__one{
+    grid-area: artist__card-one;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    max-width: 240px;
+    min-height: 238px;
+    position: relative;
+}
+.artist__avatar__one{
+    padding: 20px 65px 0 65px;
+}
+.artist__info__one{
+    margin-top: 20px;
+}
+.artist__info__title{
+    margin: 0 20px;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.additional__info__one{
+    margin: 0 20px;
+    text-align: center;
+    display: flex;
+    column-gap: 10px;
+    padding-left: 25px;
+
+}
+.total__sales__one{
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(133, 133, 132, 1);
+}
+.eth__one{
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+}
+.rankinG__numb{
+    position: absolute;
+    content: '';
+    top: 18px;
+    left: 20px;
+}
+.cards__second{
+    grid-area: artist__card-second;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    max-width: 240px;
+    min-height: 238px;
+    position: relative;
+}
+.cards__third{
+    grid-area: artist__card-third;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    max-width: 240px;
+    min-height: 238px;
+    position: relative;
+}
+.cards__fourth{
+    grid-area: artist__card-fourth;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    max-width: 240px;
+    min-height: 238px;
+    position: relative;
+}
+/*Section 5 browse__categories*/
+.category__cards-flex{
+    margin-top: 60px;
+}
+.category__cards-row{
+    padding: 0 115px;
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 30px;
+
+}
+.photo__icon{
+    position: relative;
+}
+.photo__icon-img{
+    filter: blur(4px);
+}
+.icon__box{
+    position: absolute;
+    content: '';
+    top: 70px;
+    left: 70px;
+}
+.coll__name{
+    background-color: rgba(59, 59, 59, 1);
+    max-width: 240px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 0 25px 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+}
+/*Section 6 discover__more_nft.s*/
+.discover__more_nfts{
+}
+.nft__cards__row{
+    margin-top: 60px;
+    padding: 0 115px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.nft__card-info{
+    background-color: rgba(59, 59, 59, 1);
+    padding: 20px 0 0 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.nft__name{
+    margin: 20px 30px 5px 30px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+.art__ava__name{
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.art__name{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 22px;
+}
+.addit__info{
+    margin: 25px 30px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addit__price-name{
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 13px;
+    color: rgba(133, 133, 132, 1);
+}
+.addit-eth{
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+}
+/*Section 7 nft__highlight*/
+.nft__highlight-box{
+    min-height: 640px;
+    max-width: 1280px;    
+}
+.nft__highlight-back{
+    
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Section 8 how__it__works*/
+.card__row{
+    display: flex;
+    column-gap: 30px;
+    padding: 0 115px;
+
+}
+.info__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    width: 330px;
+    margin-top: 48px;
+}
+.card__details{
+    margin: 20px 30px 30px 30px;
+}
+.setup__your__wallet{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.setup__your__txt{
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+/*Section 9 subscribe__widget*/
+.subscribe__vidget{
+    margin: 0 115px;
+    padding: 60px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    display: flex;
+    column-gap: 80px;
+}
+.subscribe__vidget-box{
+    margin-top: 19px;
+
+}
+.subscribe__vidget--title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+}
+.subscribe__vidget--txt {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    line-height: 35px;
+}
+.subscribe__vidget-box-btn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.subscribe__vidget-inp{
+    min-width: 425px;
+    min-height: 60px;
+    padding: 19px 0 19px 20px;
+    border-radius: 20px;
+}
+.subscribe__vidget-btn{
+    background-color: rgba(162, 89, 255, 1);
+    min-width: 212px;
+    min-height: 60px;
+    border-radius: 20px;
+    margin-left: -212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+/*Footer*/
+.footer{
+    background-color: rgba(43, 43, 43, 1); 
+
+}
+.footer__info{
+    padding: 80px 115px;
+    display: flex;
+    column-gap: 31px;
+    
+}
+/*1 column*/
+.footer__nft__marketplace-info{
+    min-width: 328px;
+    min-height: 191px;
+}
+/*logo box*/
+.footer__logo{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 30px;
+}
+/*Footer content*/
+.footer__aditional-txt{
+    color: rgba(204, 204, 204, 1);
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.footer__comunity-txt{
+    color: rgba(204, 204, 204, 1);
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+/*2 column*/
+.footer__explore {
+    min-width: 240px;
+    min-height: 166px;
+}
+.footer__explore-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+}
+.footer__list {
+
+}
+.footer__item {
+    padding-bottom: 20px;
+}
+.footer__link {
+    color: rgba(204, 204, 204, 1);
+    font-size: 16px;
+    line-height: 23px;  
+}
+/*column 3*/
+.footer__subscribe{
+    min-width: 420px;
+    min-height: 184px;
+    margin-bottom: 25px;
+}
+.footer-txt{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(204, 204, 204, 1);
+}
+/*Footer frame*/
+.footer__frame {
+    padding: 0 115px 40px 115px;    
+}
+.footer__frame-txt {
+    border-top: 1px solid rgba(133, 133, 132, 1);
+    color: rgba(204, 204, 204, 1);
+    font-size: 13px;
+    padding-top: 20px;
+}
